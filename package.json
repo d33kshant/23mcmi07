@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "eleventy --serve",
     "css": "tailwindcss -i styles.css -o _site/global.css --watch"
   },
   "keywords": [],
