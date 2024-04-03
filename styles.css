@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+img {
+	border-radius: 8px;
+}
+
 /**
  * VS theme by Andrew Lock (https://andrewlock.net)
  * Inspired by Visual Studio syntax coloring
