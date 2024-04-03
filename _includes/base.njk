@@ -6,7 +6,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/global.css">
+    <link rel="stylesheet" href="{{ "/global.css" | withBaseURL }}">
     {% if title %}
         <title>{{ title }}</title>
     {% else %}
@@ -18,8 +18,6 @@
         <div class="w-full max-w-xl flex justify-between items-center">
             <div class="flex-1 flex gap-4">
                 <a href="../../">D3</a>
-                <div class="flex gap-2">
-                </div>
             </div>
             <div>
                 <div class="group relative z-20">
@@ -35,9 +33,9 @@
                             </svg>
                         </div>
                         <div class="flex flex-col bg-white text-black shadow rounded z-20 min-w-32 py-1 overflow-hidden -translate-y-1">
-                            <a class="z-20 w-full py-1 px-4 hover:bg-stone-300" href="/blogs">Blogs</a>
-                            <a class="z-20 w-full py-1 px-4 hover:bg-stone-300" href="/projects">Projects</a>
-                            <a class="z-20 w-full py-1 px-4 hover:bg-stone-300" href="/about">About</a>
+                            <a class="z-20 w-full py-1 px-4 hover:bg-stone-300" href="{{ "/blogs" | withBaseURL }}">Blogs</a>
+                            <a class="z-20 w-full py-1 px-4 hover:bg-stone-300" href="{{ "/projects" | withBaseURL}}">Projects</a>
+                            <a class="z-20 w-full py-1 px-4 hover:bg-stone-300" href="{{ "/about" | withBaseURL}}">About</a>
                         </div>
                     </div>
                 </div>
