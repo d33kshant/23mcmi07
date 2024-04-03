@@ -5,7 +5,7 @@ layout: base.njk
 <div>
     <div class="flex flex-col items-center text-center">
         <!-- <div class="relative -z-10 w-full h-36 rounded-md bg-slate-600"></div> -->
-        <img class="mb-0 w-28 h-28 bg-slate-600 border-white border-4 rounded-full object-cover" src="https://github.com/d33kshant.png" />
+        <img class="mb-0 w-28 h-28 border-white border-4 rounded-full object-cover" src="https://github.com/deeksh4nt.png" />
         <div class="mt-0">
             <h3 class="m-0">Deekshant Yadav</h3>
             <p class="mt-2 mb-4">developing web servers, training machine learning models and deploying them on cloud gives me dopemine</p>
